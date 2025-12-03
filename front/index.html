@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
@@ -41,7 +43,44 @@
 
     <main>
         <section id="inicio" class="tela_inicio">
-            <h1></h1>
+            <h1>Bem vindo</h1>
+
+            <hr>
+
+            <section id="pouco_estoque" class="card_inicio">
+                <h2>Sorvetes com pouco estoque</h2>
+
+                <div class="carousel">
+                    <div class="card"><img id="img0" src="imgs/logo_amazonpng.png" alt="Imagem 1"></div>
+                    <div class="card"><img id="img1" src="imgs/logo_apple.png" alt="Imagem 2"></div>
+                    <div class="card"><img id="img2" src="imgs/logo_google.png" alt="Imagem 3"></div>
+                    <div class="card"><img id="img4" src="imgs/logo_intel.png" alt="Imagem 5" /></div>
+                    <div class="card"><img id="img5" src="imgs/logo_meta.png" alt="Imagem 6" /></div>
+                    <div class="card"><img id="img6" src="imgs/logo_microsoft.png" alt="Imagem 7" /></div>
+                    <div class="card"><img id="img7" src="imgs/logo_nvidia.png" alt="Imagem 8" /></div>
+                    <div class="card"><img id="img9" src="imgs/netflix_logo.png" alt="Imagem 10" /></div>
+                </div>
+            </section>
+
+            <section id="sorvete_mais_consumido" class="card_inicio">
+                <h2>Sorvete mais consumido</h2>
+                <img class="img_inicio" src="img/img_addSorvete/sorvetes/sorvete_morango.png" alt="sorvete_morango">
+            </section>
+
+            <section id="grafico1" class="card_inicio">
+                <h2>Sorvetes a vencer</h2>
+
+                <div id="donut_single" style="width: 100%; height: 80%;"></div>
+            </section>
+
+            <section id="grafico2" class="card_inicio">
+
+            </section>
+
+            <section id="sorvete_menos_consumido" class="card_inicio">
+                <h2>Sorvete menos consumido</h2>
+                <img class="img_inicio" src="img/img_addSorvete/sorvetes/sorvete_morango.png" alt="sorvete_morango">
+            </section>
         </section>
 
         <section id="conta" class="tela_conta">
@@ -168,5 +207,6 @@
 
 <script src="js/index.js"></script>
 <script src="js/addSorvete.js"></script>
+<script src="js/inicio.js"></script>
 
 </html>
