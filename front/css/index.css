@@ -431,9 +431,57 @@ main {
     position: fixed;
     z-index: -1;
     top: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
 
     background-color: var(--fundo1);
     height: 1300px;
+
+    div {
+        background-color: var(--fundo2);
+        padding: 0.5em 2em;
+
+        border-radius: 10cap;
+        border: 3px solid var(--tema1);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 3em;
+
+        width: 100%;
+        max-width: 350px;
+        box-shadow: 0px 0px 5px var(--sombra1);
+    }
+
+    a {
+        background-color: var(--botao3);
+        padding: 0.5em 2em;
+
+        
+        border-radius: 10cap;
+        border: 3px solid var(--tema1);
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        font-size: 2rem;
+        text-decoration: none;
+        margin-bottom: 3em;
+
+        width: 100%;
+        max-width: 350px;
+        box-shadow: 0px 0px 5px var(--sombra1);
+    }
+
+    h1{
+        font-size: 2rem;
+    }
 }
 
 /* carousel */
