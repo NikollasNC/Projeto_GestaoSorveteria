@@ -38,3 +38,11 @@ function trocarSecao(secao) {
     secao.style.position = 'static';
     secaoAtual = secao;
 }
+
+$(document).ready(function () {
+    $('#example').DataTable({
+        language: {
+            url: '//cdn.datatables.net/plug-ins/2.0.8/i18n/pt-BR.json',
+        }
+    });
+});
